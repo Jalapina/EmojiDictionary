@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8628A2EE2015366F00C8F6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628A2ED2015366F00C8F6B1 /* AppDelegate.swift */; };
-		8628A2F02015366F00C8F6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628A2EF2015366F00C8F6B1 /* ViewController.swift */; };
 		8628A2F32015366F00C8F6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8628A2F12015366F00C8F6B1 /* Main.storyboard */; };
 		8628A2F52015366F00C8F6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8628A2F42015366F00C8F6B1 /* Assets.xcassets */; };
 		8628A2F82015366F00C8F6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8628A2F62015366F00C8F6B1 /* LaunchScreen.storyboard */; };
+		8628A30020153C2A00C8F6B1 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628A2FF20153C2A00C8F6B1 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8628A2EA2015366F00C8F6B1 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8628A2ED2015366F00C8F6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8628A2EF2015366F00C8F6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8628A2F22015366F00C8F6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8628A2F42015366F00C8F6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8628A2F72015366F00C8F6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8628A2F92015366F00C8F6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8628A2FF20153C2A00C8F6B1 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				8628A2ED2015366F00C8F6B1 /* AppDelegate.swift */,
-				8628A2EF2015366F00C8F6B1 /* ViewController.swift */,
+				8628A2FF20153C2A00C8F6B1 /* EmojiTableViewController.swift */,
 				8628A2F12015366F00C8F6B1 /* Main.storyboard */,
 				8628A2F42015366F00C8F6B1 /* Assets.xcassets */,
 				8628A2F62015366F00C8F6B1 /* LaunchScreen.storyboard */,
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8628A2E52015366F00C8F6B1 /* Build configuration list for PBXProject "Emoji Dictionary" */;
+			buildConfigurationList = 8628A2E52015366F00C8F6B1 /* Build configuration list for PBXProject "EmojiDictionary" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8628A2F02015366F00C8F6B1 /* ViewController.swift in Sources */,
+				8628A30020153C2A00C8F6B1 /* EmojiTableViewController.swift in Sources */,
 				8628A2EE2015366F00C8F6B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8628A2E52015366F00C8F6B1 /* Build configuration list for PBXProject "Emoji Dictionary" */ = {
+		8628A2E52015366F00C8F6B1 /* Build configuration list for PBXProject "EmojiDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8628A2FA2015366F00C8F6B1 /* Debug */,
